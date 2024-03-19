@@ -38,7 +38,8 @@ def main():
             print(f"New checking balance: ${checking_balance:.2f}")
         elif choice == '5':
             purchase = float(input("Enter the purchase amount: $"))
-            purchase_total += purchase 
+            checking_balance -= purchase  # Subtract the purchase amount from the checking balance
+            print(f"New checking balance: ${checking_balance:.2f}")
         elif choice == '6':
             print("Exiting the program. Have a great day!")
             break
