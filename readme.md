@@ -25,7 +25,7 @@ Make sure you have Python installed on your system.
 Clone this repository to your local machine:
 
 ```
-git clone https://github.com/your-username/pinance-lite.git
+git clone git@github.com:adamtlee/pinance.git
 ```
   
 
